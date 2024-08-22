@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AcademiaDoZe_WPF/1.0.0": {
+        "runtime": {
+          "AcademiaDoZe_WPF.dll": {}
+        },
+        "resources": {
+          "en-US/AcademiaDoZe_WPF.resources.dll": {
+            "locale": "en-US"
+          },
+          "es-ES/AcademiaDoZe_WPF.resources.dll": {
+            "locale": "es-ES"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AcademiaDoZe_WPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
