@@ -4,7 +4,8 @@ using System.Windows.Controls;
 namespace AcademiaDoZe_WPF
 {
     /// <summary>
-    /// Interação lógica para ColaboradoresPag.xam
+    /// Aqui fica a página de Colaboradores
+    /// Rafael Ceccatto Blomer
     /// </summary>
     public partial class ColaboradoresPag : Page
     {

@@ -20,9 +20,7 @@
         <Button x:Name="txtAulas" Content="{x:Static resources:Idioma.txtAulas}" HorizontalAlignment="Left" Margin="29,416,0,0" VerticalAlignment="Top" Height="33" Width="133"/>
         <Button x:Name="txtAvaliacao" Content="{x:Static resources:Idioma.txtAvaliacao}" HorizontalAlignment="Left" Margin="29,340,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="AvaliacaoBtn_Click"/>
         <Button x:Name="txtColaborador" Content="{x:Static resources:Idioma.txtColaborador}" HorizontalAlignment="Left" Margin="29,226,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="ColaboradorBtn_Click"/>
-        <Button x:Name="txtPtBr" Content="pt-BR" HorizontalAlignment="Left" Margin="29,522,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="txtPtBr_Click"/>
-        <Button x:Name="txtEnUs" Content="en-US" HorizontalAlignment="Left" Margin="29,560,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="txtEnUs_Click"/>
-        <Button x:Name="txtEsEs" Content="es-ES" HorizontalAlignment="Left" Margin="29,598,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="txtEsEs_Click"/>
+        <Button x:Name="txtConfig" Content="{x:Static resources:Idioma.txtConfig}" HorizontalAlignment="Left" Margin="29,598,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="txtConfig_Click"/>
 
     </Grid>
 </Window>

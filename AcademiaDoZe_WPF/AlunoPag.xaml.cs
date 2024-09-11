@@ -4,7 +4,8 @@ using System.Windows.Controls;
 namespace AcademiaDoZe_WPF
 {
     /// <summary>
-    /// Interação lógica para AlunoPag.xam
+    /// Aqui fica a página de aluno 
+    /// Rafael Ceccatto Blomer
     /// </summary>
     public partial class AlunoPag : Page
     {

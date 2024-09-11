@@ -4,7 +4,8 @@ using System.Windows.Controls;
 namespace AcademiaDoZe_WPF
 {
     /// <summary>
-    /// Interação lógica para FrequenciaPag.xam
+    /// Aqui fica a página de frequencia
+    /// Rafael Ceccatto Blomer
     /// </summary>
     public partial class FrequenciaPag : Page
     {

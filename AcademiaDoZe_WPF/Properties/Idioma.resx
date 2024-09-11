@@ -177,6 +177,9 @@
   <data name="txtComplemento" xml:space="preserve">
     <value>Complemento</value>
   </data>
+  <data name="txtConfig" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
   <data name="txtCoxaDir" xml:space="preserve">
     <value>Coxa Direita</value>
   </data>
@@ -218,6 +221,9 @@
   </data>
   <data name="txtIdEnd" xml:space="preserve">
     <value>ID Endereço</value>
+  </data>
+  <data name="txtIdioma" xml:space="preserve">
+    <value>Idioma</value>
   </data>
   <data name="txtImc" xml:space="preserve">
     <value>IMC</value>

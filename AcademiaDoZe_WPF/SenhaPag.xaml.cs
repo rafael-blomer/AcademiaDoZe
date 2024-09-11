@@ -4,7 +4,8 @@ using System.Windows.Controls;
 namespace AcademiaDoZe_WPF
 {
     /// <summary>
-    /// Interação lógica para SenhaPag.xam
+    /// Aqui fica a página de senha 
+    /// Rafael Ceccatto Blomer
     /// </summary>
     public partial class SenhaPag : Page
     {
@@ -17,7 +18,6 @@ namespace AcademiaDoZe_WPF
         {
             ClassFuncoes.AjustaResources(this);
         }
-
         private void salvarSen_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Senha salva com successo!");

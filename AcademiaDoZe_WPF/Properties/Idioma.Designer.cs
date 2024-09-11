@@ -241,6 +241,15 @@ namespace AcademiaDoZe_WPF.Properties {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Configurações.
+        /// </summary>
+        public static string txtConfig {
+            get {
+                return ResourceManager.GetString("txtConfig", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Coxa Direita.
         /// </summary>
         public static string txtCoxaDir {
@@ -363,6 +372,15 @@ namespace AcademiaDoZe_WPF.Properties {
         public static string txtIdEnd {
             get {
                 return ResourceManager.GetString("txtIdEnd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Idioma.
+        /// </summary>
+        public static string txtIdioma {
+            get {
+                return ResourceManager.GetString("txtIdioma", resourceCulture);
             }
         }
         

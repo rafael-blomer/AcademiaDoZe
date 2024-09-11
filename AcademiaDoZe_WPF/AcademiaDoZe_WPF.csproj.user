@@ -31,6 +31,14 @@
     <Compile Update="SenhaPag.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="WindowConfig.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Idioma.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Page Update="AlunoPag.xaml">
@@ -58,6 +66,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SenhaPag.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowConfig.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

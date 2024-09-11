@@ -57,6 +57,14 @@ C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\ACADEMIA\aaaa\A
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\ACADEMIA\aaaa\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\ref\AcademiaDoZe_WPF.dll
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\ACADEMIA\aaaa\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\SenhaPag.g.cs
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\ACADEMIA\aaaa\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\SenhaPag.baml
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\AcademiaDoZe_WPF.exe
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\AcademiaDoZe_WPF.dll.config
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\AcademiaDoZe_WPF.deps.json
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\AcademiaDoZe_WPF.runtimeconfig.json
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\AcademiaDoZe_WPF.dll
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\AcademiaDoZe_WPF.pdb
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\en-US\AcademiaDoZe_WPF.resources.dll
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\es-ES\AcademiaDoZe_WPF.resources.dll
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\AlunoPag.g.cs
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\AvaliacoesPag.g.cs
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\ColaboradoresPag.g.cs
@@ -66,16 +74,10 @@ C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WP
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\MatriculaPag.g.cs
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\SenhaPag.g.cs
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\WindowConfig.g.cs
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\AcademiaDoZe_WPF_MarkupCompile.cache
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\AcademiaDoZe_WPF_MarkupCompile.lref
-C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\AcademiaDoZe_WPF.exe
-C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\AcademiaDoZe_WPF.deps.json
-C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\AcademiaDoZe_WPF.runtimeconfig.json
-C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\AcademiaDoZe_WPF.dll
-C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\AcademiaDoZe_WPF.pdb
-C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\en-US\AcademiaDoZe_WPF.resources.dll
-C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\es-ES\AcademiaDoZe_WPF.resources.dll
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\AlunoPag.baml
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\AvaliacoesPag.baml
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\ColaboradoresPag.baml
@@ -85,6 +87,7 @@ C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WP
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\MatriculaPag.baml
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\SenhaPag.baml
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\WindowConfig.baml
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\AcademiaDoZe_WPF.g.resources
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\AcademiaDoZe_WPF.Properties.Idioma.resources
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\AcademiaDoZe_WPF.Properties.Idioma.en-US.resources
@@ -102,3 +105,5 @@ C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WP
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\AcademiaDoZe_WPF.pdb
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\AcademiaDoZe_WPF.genruntimeconfig.cache
 C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\ref\AcademiaDoZe_WPF.dll
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\bin\Debug\net8.0-windows\AcademiaDoZe_WPF.xml
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe_WPF\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\AcademiaDoZe_WPF.xml

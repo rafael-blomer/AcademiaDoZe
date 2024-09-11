@@ -75,19 +75,16 @@ namespace AcademiaDoZe_WPF
             oldWindow.Close();
         }
 
-        private void txtPtBr_Click(object sender, RoutedEventArgs e)
+        private void txtConfig_Click(object sender, RoutedEventArgs e)
         {
-            ChangeLanguage("pt-BR");
-        }
-
-        private void txtEnUs_Click(object sender, RoutedEventArgs e)
-        {
-            ChangeLanguage("en-US");
-        }
-
-        private void txtEsEs_Click(object sender, RoutedEventArgs e)
-        {
-            ChangeLanguage("es-ES");
+            WindowConfig windowConfig = new();
+            windowConfig.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+            windowConfig.ShowDialog();
+            // Recarregar a interface do usuário para refletir as mudanças
+            var newWindow = new MainWindow();
+            Application.Current.MainWindow = newWindow;
+            newWindow.Show();
+            Close();
         }
     }
 }

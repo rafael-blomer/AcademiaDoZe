@@ -4,7 +4,8 @@ using System.Windows.Controls;
 namespace AcademiaDoZe_WPF
 {
     /// <summary>
-    /// Interação lógica para LogradouroPag.xam
+    /// Aqui fica a página de Logradouro
+    /// Rafael Ceccatto Blomer
     /// </summary>
     public partial class LogradouroPag : Page
     {

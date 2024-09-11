@@ -4,7 +4,8 @@ using System.Windows.Controls;
 namespace AcademiaDoZe_WPF
 {
     /// <summary>
-    /// Lógica interna para MatriculaPag.xaml
+    /// Aqui fica a página de Mátricula
+    /// Rafael Ceccatto Blomer
     /// </summary>
     public partial class MatriculaPag : Page
     {

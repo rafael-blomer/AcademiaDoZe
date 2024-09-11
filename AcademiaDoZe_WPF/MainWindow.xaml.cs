@@ -3,7 +3,8 @@
 namespace AcademiaDoZe_WPF
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Aqui fica a página de mainWindow
+    /// Rafael Ceccatto Blomer
     /// </summary>
     public partial class MainWindow : Window
     {
