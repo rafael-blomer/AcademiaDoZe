@@ -23,7 +23,6 @@ namespace AcademiaDoZe_WPF.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Idioma {
-        
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
@@ -590,7 +589,15 @@ namespace AcademiaDoZe_WPF.Properties {
                 return ResourceManager.GetString("txtPercGor", resourceCulture);
             }
         }
-        
+
+        public static string txtPergunta
+        {
+            get
+            {
+                return ResourceManager.GetString("txtPergunta", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Peso.
         /// </summary>

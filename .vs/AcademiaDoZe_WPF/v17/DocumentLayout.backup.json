@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|c:\\users\\rafae\\onedrive\\documentos\\faculdade\\desenvolvimento de sistemas - tio lu\\academiadoze\\academiadoze_wpf\\alunopag.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|solutionrelative:academiadoze_wpf\\alunopag.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|c:\\users\\rafae\\onedrive\\documentos\\faculdade\\desenvolvimento de sistemas - tio lu\\academiadoze\\academiadoze_wpf\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|solutionrelative:academiadoze_wpf\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|c:\\users\\rafae\\onedrive\\documentos\\faculdade\\desenvolvimento de sistemas - tio lu\\academiadoze\\academiadoze_wpf\\frequenciapag.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|solutionrelative:academiadoze_wpf\\frequenciapag.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|c:\\users\\rafae\\onedrive\\documentos\\faculdade\\desenvolvimento de sistemas - tio lu\\academiadoze\\academiadoze_wpf\\colaboradorespag.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|solutionrelative:academiadoze_wpf\\colaboradorespag.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|c:\\users\\rafae\\onedrive\\documentos\\faculdade\\desenvolvimento de sistemas - tio lu\\academiadoze\\academiadoze_wpf\\avaliacoespag.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|solutionrelative:academiadoze_wpf\\avaliacoespag.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\Home.xaml",
+              "RelativeDocumentMoniker": "AcademiaDoZe_WPF\\Home.xaml",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\Home.xaml",
+              "RelativeToolTip": "AcademiaDoZe_WPF\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T00:00:27.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrequenciaPag.xaml",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\FrequenciaPag.xaml",
+              "RelativeDocumentMoniker": "AcademiaDoZe_WPF\\FrequenciaPag.xaml",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\FrequenciaPag.xaml",
+              "RelativeToolTip": "AcademiaDoZe_WPF\\FrequenciaPag.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T00:00:24.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ColaboradoresPag.xaml",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\ColaboradoresPag.xaml",
+              "RelativeDocumentMoniker": "AcademiaDoZe_WPF\\ColaboradoresPag.xaml",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\ColaboradoresPag.xaml",
+              "RelativeToolTip": "AcademiaDoZe_WPF\\ColaboradoresPag.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T00:00:22.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AvaliacoesPag.xaml",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\AvaliacoesPag.xaml",
+              "RelativeDocumentMoniker": "AcademiaDoZe_WPF\\AvaliacoesPag.xaml",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\AvaliacoesPag.xaml",
+              "RelativeToolTip": "AcademiaDoZe_WPF\\AvaliacoesPag.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T00:00:16.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlunoPag.xaml",
+              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\AlunoPag.xaml",
+              "RelativeDocumentMoniker": "AcademiaDoZe_WPF\\AlunoPag.xaml",
+              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\AlunoPag.xaml*",
+              "RelativeToolTip": "AcademiaDoZe_WPF\\AlunoPag.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-16T23:57:53.787Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

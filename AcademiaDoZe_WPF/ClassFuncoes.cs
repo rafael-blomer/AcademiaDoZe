@@ -8,6 +8,8 @@ using System.Windows.Media;
 using System.Windows;
 using System.Configuration;
 using System.Globalization;
+using System.Windows.Input;
+using System.Data.Common;
 
 namespace AcademiaDoZe_WPF;
 
@@ -52,5 +54,65 @@ class ClassFuncoes
         CultureInfo culture = new(idiomaRegiao!);
         Thread.CurrentThread.CurrentUICulture = culture;
         Thread.CurrentThread.CurrentCulture = culture;
+    }
+
+    /// <summary>
+    /// Tratar eventos de teclado, no caso tecla ENTER funcionando com TAB e tecla ESC para fechar
+    /// </summary>
+    /// <param name="sender">Objeto que gerou o evento</param>
+    /// <param name="e">Evento que foi capturado</param>
+    /// <example>No construtor do formulário:
+    /// this.KeyDown += new System.Windows.Input.KeyEventHandler(ClassFuncoes.Window_KeyDown);
+    ///</example>
+    public static void Window_KeyDown(object sender, KeyEventArgs e)
+    {
+        // Se a tecla ENTER for pressionada
+        if (e.Key == Key.Enter)
+        {
+            // Move o foco para o próximo controle, como o TAB faria
+            var focusedElement = Keyboard.FocusedElement as UIElement;
+            // Move o foco para o próximo controle na ordem de tabulação
+            focusedElement?.MoveFocus(new TraversalRequest(FocusNavigationDirection.Next));
+            e.Handled = true; // Previne comportamento padrão do ENTER (como som)
+        }
+        // Se a tecla ESC for pressionada
+        else if (e.Key == Key.Escape)
+        {
+            // verifica se é window e fecha
+            if (sender is Window window)
+            {
+                window.Close();
+            }
+        }
+    }
+
+    public static void ValidaConexaoDB()
+    {
+        DbProviderFactory factory;
+        string provider = ConfigurationManager.ConnectionStrings["BD"].ProviderName;
+        string connectionString = ConfigurationManager.ConnectionStrings["BD"].ConnectionString;
+        try
+        {
+            factory = DbProviderFactories.GetFactory(provider);
+            using var conexao = factory.CreateConnection();
+            conexao!.ConnectionString = connectionString;
+            using var comando = factory.CreateCommand();
+            comando!.Connection = conexao;
+            conexao.Open();
+        }
+        catch (DbException ex)
+        {
+            MessageBox.Show($"{ex.Source}\n\n{ex.Message}\n\n{ex.ErrorCode}\n\n{ex.SqlState}\n\n{ex.StackTrace}");
+            var auxConfig = new View.WindowConfig(provider, connectionString);
+            auxConfig.ShowDialog();
+            ValidaConexaoDB();
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"{ex.Source}\n\n{ex.Message}\n\n{ex.StackTrace}");
+            var auxConfig = new View.WindowConfig(provider, connectionString);
+            auxConfig.ShowDialog();
+            ValidaConexaoDB();
+        }
     }
 }

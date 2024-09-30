@@ -1,0 +1,29 @@
+﻿<Window x:Class="AcademiaDoZe_WPF.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AcademiaDoZe_WPF.View"
+        xmlns:resources="clr-namespace:AcademiaDoZe_WPF.Properties"
+        mc:Ignorable="d"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="67*"/>
+            <ColumnDefinition Width="13*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="16*"/>
+            <RowDefinition Height="201*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="txtLogar" Content="Logar" HorizontalAlignment="Left" TabIndex="0" Margin="332,283,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click" Height="72" Width="136"/>
+        <TextBox x:Name="Senha" HorizontalAlignment="Left" TabIndex="1" Margin="312,201,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" Height="20" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus"/>
+        <xctk:MaskedTextBox Mask="000.000.000-00" Name="Cpf" HorizontalAlignment="Left" TabIndex="0" Margin="312,111,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" Height="20" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus"/>
+        <Image x:Name="Imagem" Margin="201,10,318,305" Source="/Image1.png" Stretch="Fill" Grid.RowSpan="2"/>
+        <Label x:Name="txtAcademia" Content="Academia do Zé" HorizontalAlignment="Left" Margin="323,19,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="txtCpf" Content="{x:Static resources:Idioma.txtCpf}" HorizontalAlignment="Left" Margin="312,78,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="13" Width="201"/>
+        <Label x:Name="txtSenha" Content="{x:Static resources:Idioma.txtSenha}" HorizontalAlignment="Left" Margin="312,166,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="13" Width="266"/>
+
+    </Grid>
+</Window>

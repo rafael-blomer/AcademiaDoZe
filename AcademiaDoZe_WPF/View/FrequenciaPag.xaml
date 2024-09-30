@@ -1,0 +1,26 @@
+﻿<Page x:Class="AcademiaDoZe_WPF.View.FrequenciaPag"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AcademiaDoZe_WPF.View"
+      xmlns:resources="clr-namespace:AcademiaDoZe_WPF.Properties"
+      mc:Ignorable="d" 
+      xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+      Title="FrequenciaPag" Height="578" Width="1006">
+
+    <Grid Background="#FFB5B5B5">
+        <Label x:Name="txtFrequencia" Content="{x:Static resources:Idioma.txtFrequencia}" HorizontalAlignment="Center" Margin="0,22,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label x:Name="txtId" Content="{x:Static resources:Idioma.txtId}" HorizontalAlignment="Left" Margin="166,82,0,0" VerticalAlignment="Top" Height="32" Width="130"/>
+        <TextBox x:Name="textId" IsTabStop="false" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus" HorizontalAlignment="Left" Margin="166,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Height="22"/>
+        <Label x:Name="txtIdAluno" Content="{x:Static resources:Idioma.txtIdAluno}" HorizontalAlignment="Left" Margin="318,82,0,0" VerticalAlignment="Top" Height="32" Width="105"/>
+        <TextBox x:Name="textIdAluno" IsTabStop="false" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus" HorizontalAlignment="Left" Margin="322,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Height="22"/>
+        <Label x:Name="txtCpf" Content="{x:Static resources:Idioma.txtCpf}" HorizontalAlignment="Left" Margin="499,82,0,0" VerticalAlignment="Top" Height="32" Width="229"/>
+        <xctk:MaskedTextBox Mask="000.000.000-00" Name="textCpf"  TabIndex="0" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus" HorizontalAlignment="Left" Margin="503,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355" Height="22"/>
+        <Label x:Name="txtEntrada" Content="{x:Static resources:Idioma.txtEntrada}" HorizontalAlignment="Left" Margin="277,199,0,0" VerticalAlignment="Top" Width="126"/>
+        <DatePicker x:Name="textEntrada" TabIndex="1" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus" HorizontalAlignment="Left" Margin="277,225,0,0" VerticalAlignment="Top" Width="146"/>
+        <Label x:Name="txtSaida" Content="{x:Static resources:Idioma.txtSaida}" HorizontalAlignment="Left" Margin="534,199,0,0" VerticalAlignment="Top" Width="104"/>
+        <DatePicker x:Name="textSaida" TabIndex="2" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus" HorizontalAlignment="Left" Margin="534,225,0,0" VerticalAlignment="Top" Width="146"/>
+        <Button x:Name="txtSalvar" TabIndex="3" Content="{x:Static resources:Idioma.txtSalvar}" HorizontalAlignment="Left" Margin="420,331,0,0" Height="61" Width="160" VerticalAlignment="Top" Click="salvarFreqClick"/>
+    </Grid>
+</Page>

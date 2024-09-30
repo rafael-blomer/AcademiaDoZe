@@ -1,0 +1,30 @@
+﻿<Page x:Class="AcademiaDoZe_WPF.View.LogradouroPag"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AcademiaDoZe_WPF.View"
+      xmlns:resources="clr-namespace:AcademiaDoZe_WPF.Properties"
+      mc:Ignorable="d"
+      xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+      Title="LogradouroPag" Height="578" Width="1006">
+
+    <Grid Background="#FFB5B5B5">
+        <Label x:Name="txtId" Content="{x:Static resources:Idioma.txtId}" HorizontalAlignment="Left" Margin="139,101,0,0" VerticalAlignment="Top" Height="32" Width="103"/>
+        <TextBox x:Name="textId" IsTabStop="false" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus" HorizontalAlignment="Left" Margin="139,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="23"/>
+        <Label x:Name="txtCep" Content="{x:Static resources:Idioma.txtCep}" HorizontalAlignment="Left" Margin="310,101,0,0" VerticalAlignment="Top" Height="32" Width="166"/>
+        <xctk:MaskedTextBox Mask="00000-000" Name="textCep" TabIndex="0" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus" HorizontalAlignment="Left" Margin="314,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="235" Height="23"/>
+        <Label x:Name="txtLogradouro" Content="{x:Static resources:Idioma.txtLogradouro}" HorizontalAlignment="Left" Margin="588,101,0,0" VerticalAlignment="Top" Height="32" Width="233"/>
+        <TextBox x:Name="textLogradouro" TabIndex="1" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus" HorizontalAlignment="Left" Margin="592,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="356" Height="23"/>
+        <Label x:Name="txtBairro" Content="{x:Static resources:Idioma.txtBairro}" HorizontalAlignment="Left" Margin="136,222,0,0" VerticalAlignment="Top" Height="32" Width="214"/>
+        <TextBox x:Name="textBairro" TabIndex="2" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus" HorizontalAlignment="Left" Margin="139,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="337" Height="23"/>
+        <Label x:Name="txtLogradouroh1" Content="{x:Static resources:Idioma.txtLogradouro}" HorizontalAlignment="Center" Margin="0,22,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label x:Name="txtCidade" Content="{x:Static resources:Idioma.txtCidade}" HorizontalAlignment="Left" Margin="512,222,0,0" VerticalAlignment="Top" Height="32" Width="221"/>
+        <Label x:Name="txtUf" Content="{x:Static resources:Idioma.txtUf}" HorizontalAlignment="Left" Margin="139,344,0,0" VerticalAlignment="Top" Height="32" Width="169"/>
+        <Label x:Name="txtPais" Content="{x:Static resources:Idioma.txtPais}" HorizontalAlignment="Left" Margin="330,344,0,0" VerticalAlignment="Top" Height="32" Width="350"/>
+        <ComboBox x:Name="textCidade" TabIndex="3" HorizontalAlignment="Left" Margin="518,249,0,0" VerticalAlignment="Top" Width="430" Height="23"/>
+        <ComboBox x:Name="textPais" TabIndex="5" HorizontalAlignment="Left" Margin="330,376,0,0" VerticalAlignment="Top" Width="618" Height="24"/>
+        <ComboBox x:Name="textUf" TabIndex="4" HorizontalAlignment="Left" Margin="141,376,0,0" VerticalAlignment="Top" Width="156" Height="24"/>
+        <Button x:Name="txtSalvar" TabIndex="6" Content="{x:Static resources:Idioma.txtSalvar}" HorizontalAlignment="Left" Margin="768,441,0,0" Height="61" Width="180" VerticalAlignment="Top" Click="salvarLog_Click"/>
+    </Grid>
+</Page>

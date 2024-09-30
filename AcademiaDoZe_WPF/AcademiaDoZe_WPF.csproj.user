@@ -7,31 +7,34 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="AlunoPag.xaml.cs">
+    <Compile Update="View\AlunoPag.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="AvaliacoesPag.xaml.cs">
+    <Compile Update="View\AvaliacoesPag.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ColaboradoresPag.xaml.cs">
+    <Compile Update="View\ColaboradoresPag.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="FrequenciaPag.xaml.cs">
+    <Compile Update="View\FrequenciaPag.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Home.xaml.cs">
+    <Compile Update="View\Home.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="LogradouroPag.xaml.cs">
+    <Compile Update="View\LogradouroPag.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MatriculaPag.xaml.cs">
+    <Compile Update="View\MatriculaPag.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="SenhaPag.xaml.cs">
+    <Compile Update="View\PageListaLogradouro.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="WindowConfig.xaml.cs">
+    <Compile Update="View\SenhaPag.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WindowConfig.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -41,34 +44,37 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="AlunoPag.xaml">
+    <Page Update="View\AlunoPag.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="AvaliacoesPag.xaml">
+    <Page Update="View\AvaliacoesPag.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ColaboradoresPag.xaml">
+    <Page Update="View\ColaboradoresPag.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="FrequenciaPag.xaml">
+    <Page Update="View\FrequenciaPag.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Home.xaml">
+    <Page Update="View\Home.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="LogradouroPag.xaml">
+    <Page Update="View\LogradouroPag.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="View\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MatriculaPag.xaml">
+    <Page Update="View\MatriculaPag.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="SenhaPag.xaml">
+    <Page Update="View\PageListaLogradouro.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="WindowConfig.xaml">
+    <Page Update="View\SenhaPag.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\WindowConfig.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

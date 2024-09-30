@@ -354,4 +354,7 @@
   <data name="txtUf" xml:space="preserve">
     <value>UF</value>
   </data>
+  <data name="txtPergunta" xml:space="preserve">
+    <value>Você realmente deseja fechar a aplicação?</value>
+  </data>
 </root>

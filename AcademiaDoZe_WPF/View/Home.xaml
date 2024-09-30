@@ -1,0 +1,27 @@
+﻿<Window x:Class="AcademiaDoZe_WPF.View.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AcademiaDoZe_WPF.View"
+        xmlns:resources="clr-namespace:AcademiaDoZe_WPF.Properties"
+        mc:Ignorable="d"
+        Closing="MainWindow_Closing"
+        Title="Home" Height="720" Width="1280">
+    <Grid>
+        <Button x:Name="txtLogout" TabIndex="10" Content="{x:Static resources:Idioma.txtLogout}" HorizontalAlignment="Left" Margin="29,636,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="LOGOUT_Click"/>
+        <Button x:Name="txtMatricula" TabIndex="4" Content="{x:Static resources:Idioma.txtMatricula}" HorizontalAlignment="Left" Margin="29,302,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="Matriculabtn_Click"/>
+        <Button x:Name="txtSenha" TabIndex="3" Content="{x:Static resources:Idioma.txtSenha}" HorizontalAlignment="Left" Margin="29,264,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="SenhaBtn_Click"/>
+        <Button x:Name="txtAluno" TabIndex="1" Content="{x:Static resources:Idioma.txtAluno}" HorizontalAlignment="Left" Margin="29,188,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="AlunoBtn_Click"/>
+        <Button x:Name="txtLogradouro" TabIndex="0" Content="{x:Static resources:Idioma.txtLogradouro}" HorizontalAlignment="Left" Margin="29,150,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="Logradourobtn_Click"/>
+        <Image HorizontalAlignment="Left" Height="150" Margin="3,0,0,0" VerticalAlignment="Top" Width="190" Source="/Image1.png"/>
+        <Frame x:Name="mainFrame" Content="" Margin="195,0,0,0" Background="#FFB5B5B5" NavigationUIVisibility="Hidden"/>
+        <Button x:Name="txtFrequencia" TabIndex="6" Content="{x:Static resources:Idioma.txtFrequencia}" HorizontalAlignment="Left" Margin="29,378,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="FrequenciaBtn_Click"/>
+        <Button x:Name="txtTreinos" TabIndex="8" Content="{x:Static resources:Idioma.txtTreinos}" HorizontalAlignment="Left" Margin="29,454,0,0" VerticalAlignment="Top" Height="33" Width="133"/>
+        <Button x:Name="txtAulas" TabIndex="7" Content="{x:Static resources:Idioma.txtAulas}" HorizontalAlignment="Left" Margin="29,416,0,0" VerticalAlignment="Top" Height="33" Width="133"/>
+        <Button x:Name="txtAvaliacao" TabIndex="5" Content="{x:Static resources:Idioma.txtAvaliacao}" HorizontalAlignment="Left" Margin="29,340,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="AvaliacaoBtn_Click"/>
+        <Button x:Name="txtColaborador" TabIndex="2" Content="{x:Static resources:Idioma.txtColaborador}" HorizontalAlignment="Left" Margin="29,226,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="ColaboradorBtn_Click"/>
+        <Button x:Name="txtConfig" TabIndex="9" Content="{x:Static resources:Idioma.txtConfig}" HorizontalAlignment="Left" Margin="29,598,0,0" VerticalAlignment="Top" Height="33" Width="133" Click="txtConfig_Click"/>
+
+    </Grid>
+</Window>

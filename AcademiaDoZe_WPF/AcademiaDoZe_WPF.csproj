@@ -15,7 +15,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Image1.png" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.6.1" />
+    <PackageReference Include="MySql.Data" Version="9.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\Image1.png" />
   </ItemGroup>
 
   <ItemGroup>

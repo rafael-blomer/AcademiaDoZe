@@ -4,20 +4,6 @@
         <name>AcademiaDoZe_WPF</name>
     </assembly>
     <members>
-        <member name="T:AcademiaDoZe_WPF.AlunoPag">
-            <summary>
-            Aqui fica a página de aluno 
-            Rafael Ceccatto Blomer
-            </summary>
-            <summary>
-            AlunoPag
-            </summary>
-        </member>
-        <member name="M:AcademiaDoZe_WPF.AlunoPag.InitializeComponent">
-            <summary>
-            InitializeComponent
-            </summary>
-        </member>
         <member name="T:AcademiaDoZe_WPF.App">
             <summary>
             Aqui fica a página do app 
@@ -37,20 +23,6 @@
             Application Entry Point.
             </summary>
         </member>
-        <member name="T:AcademiaDoZe_WPF.AvaliacoesPag">
-            <summary>
-            Aqui fica a página de avaliações 
-            Rafael Ceccatto Blomer
-            </summary>
-            <summary>
-            AvaliacoesPag
-            </summary>
-        </member>
-        <member name="M:AcademiaDoZe_WPF.AvaliacoesPag.InitializeComponent">
-            <summary>
-            InitializeComponent
-            </summary>
-        </member>
         <member name="M:AcademiaDoZe_WPF.ClassFuncoes.AjustaResources(System.Windows.DependencyObject)">
             <summary>
             De forma recursiva, varre todos os componentes da tela informada, executando o método ApplyResources em cada um dos componentes localizados.
@@ -61,88 +33,15 @@
             </summary>
             <param name="parent">Informar o container inicial, geralmente this para pegar todos os campos da tela, ou então, por exemplo, o nome de um panel ou usercontrol.</param>
         </member>
-        <member name="T:AcademiaDoZe_WPF.ColaboradoresPag">
-            <summary>
-            Aqui fica a página de Colaboradores
-            Rafael Ceccatto Blomer
-            </summary>
-            <summary>
-            ColaboradoresPag
-            </summary>
-        </member>
-        <member name="M:AcademiaDoZe_WPF.ColaboradoresPag.InitializeComponent">
-            <summary>
-            InitializeComponent
-            </summary>
-        </member>
-        <member name="T:AcademiaDoZe_WPF.FrequenciaPag">
-            <summary>
-            Aqui fica a página de frequencia
-            Rafael Ceccatto Blomer
-            </summary>
-            <summary>
-            FrequenciaPag
-            </summary>
-        </member>
-        <member name="M:AcademiaDoZe_WPF.FrequenciaPag.InitializeComponent">
-            <summary>
-            InitializeComponent
-            </summary>
-        </member>
-        <member name="T:AcademiaDoZe_WPF.Home">
-            <summary>
-            Lógica interna para Home.xaml
-            </summary>
-            <summary>
-            Home
-            </summary>
-        </member>
-        <member name="M:AcademiaDoZe_WPF.Home.InitializeComponent">
-            <summary>
-            InitializeComponent
-            </summary>
-        </member>
-        <member name="T:AcademiaDoZe_WPF.LogradouroPag">
-            <summary>
-            Aqui fica a página de Logradouro
-            Rafael Ceccatto Blomer
-            </summary>
-            <summary>
-            LogradouroPag
-            </summary>
-        </member>
-        <member name="M:AcademiaDoZe_WPF.LogradouroPag.InitializeComponent">
-            <summary>
-            InitializeComponent
-            </summary>
-        </member>
-        <member name="T:AcademiaDoZe_WPF.MainWindow">
-            <summary>
-            Aqui fica a página de mainWindow
-            Rafael Ceccatto Blomer
-            </summary>
-            <summary>
-            MainWindow
-            </summary>
-        </member>
-        <member name="M:AcademiaDoZe_WPF.MainWindow.InitializeComponent">
-            <summary>
-            InitializeComponent
-            </summary>
-        </member>
-        <member name="T:AcademiaDoZe_WPF.MatriculaPag">
-            <summary>
-            Aqui fica a página de Mátricula
-            Rafael Ceccatto Blomer
-            </summary>
-            <summary>
-            MatriculaPag
-            </summary>
-        </member>
-        <member name="M:AcademiaDoZe_WPF.MatriculaPag.InitializeComponent">
-            <summary>
-            InitializeComponent
-            </summary>
+        <member name="M:AcademiaDoZe_WPF.ClassFuncoes.Window_KeyDown(System.Object,System.Windows.Input.KeyEventArgs)">
+             <summary>
+             Tratar eventos de teclado, no caso tecla ENTER funcionando com TAB e tecla ESC para fechar
+             </summary>
+             <param name="sender">Objeto que gerou o evento</param>
+             <param name="e">Evento que foi capturado</param>
+             <example>No construtor do formulário:
+             this.KeyDown += new System.Windows.Input.KeyEventHandler(ClassFuncoes.Window_KeyDown);
+            </example>
         </member>
         <member name="T:AcademiaDoZe_WPF.Properties.Idioma">
             <summary>
@@ -1357,7 +1256,128 @@
               Consulta uma cadeia de caracteres localizada semelhante a .
             </summary>
         </member>
-        <member name="T:AcademiaDoZe_WPF.SenhaPag">
+        <member name="T:AcademiaDoZe_WPF.View.AlunoPag">
+            <summary>
+            Aqui fica a página de aluno 
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            AlunoPag
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.AlunoPag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.AvaliacoesPag">
+            <summary>
+            Aqui fica a página de avaliações 
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            AvaliacoesPag
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.AvaliacoesPag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.ColaboradoresPag">
+            <summary>
+            Aqui fica a página de Colaboradores
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            ColaboradoresPag
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.ColaboradoresPag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.FrequenciaPag">
+            <summary>
+            Aqui fica a página de frequencia
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            FrequenciaPag
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.FrequenciaPag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.Home">
+            <summary>
+            Lógica interna para Home.xaml
+            </summary>
+            <summary>
+            Home
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.Home.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.LogradouroPag">
+            <summary>
+            Aqui fica a página de Logradouro
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            LogradouroPag
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.LogradouroPag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.MainWindow">
+            <summary>
+            Aqui fica a página de mainWindow
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.MatriculaPag">
+            <summary>
+            Aqui fica a página de Mátricula
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            MatriculaPag
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.MatriculaPag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.PageListaLogradouro">
+            <summary>
+            PageListaLogradouro
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.PageListaLogradouro.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.SenhaPag">
             <summary>
             Aqui fica a página de senha 
             Rafael Ceccatto Blomer
@@ -1366,12 +1386,12 @@
             SenhaPag
             </summary>
         </member>
-        <member name="M:AcademiaDoZe_WPF.SenhaPag.InitializeComponent">
+        <member name="M:AcademiaDoZe_WPF.View.SenhaPag.InitializeComponent">
             <summary>
             InitializeComponent
             </summary>
         </member>
-        <member name="T:AcademiaDoZe_WPF.WindowConfig">
+        <member name="T:AcademiaDoZe_WPF.View.WindowConfig">
             <summary>
             Lógica interna para WindowConfig.xaml
             </summary>
@@ -1379,7 +1399,7 @@
             WindowConfig
             </summary>
         </member>
-        <member name="M:AcademiaDoZe_WPF.WindowConfig.InitializeComponent">
+        <member name="M:AcademiaDoZe_WPF.View.WindowConfig.InitializeComponent">
             <summary>
             InitializeComponent
             </summary>
