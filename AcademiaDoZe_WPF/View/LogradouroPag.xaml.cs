@@ -1,4 +1,5 @@
-﻿using System.Configuration.Provider;
+﻿using System.Configuration;
+using System.Configuration.Provider;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -12,10 +13,10 @@ namespace AcademiaDoZe_WPF.View
     {
         private string ConnectionString { get; set; }
         private string ProviderName { get; set; }
-        public LogradouroPag(string providerName, string connectionString)
+        public LogradouroPag()
         {
-            ConnectionString = connectionString;
-            ProviderName = providerName;
+            ProviderName = ConfigurationManager.ConnectionStrings["BD"].ProviderName;
+            ConnectionString = ConfigurationManager.ConnectionStrings["BD"].ConnectionString;
             InitializeComponent();
             this.Loaded += Page_Loaded;
             textCep.Focus();

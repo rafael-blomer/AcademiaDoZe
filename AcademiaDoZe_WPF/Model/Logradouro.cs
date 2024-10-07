@@ -2,7 +2,7 @@
 using System.Configuration.Provider;
 
 namespace AcademiaDoZe_WPF.Model;
-public class Logradouro
+public class Logradouro : ICloneable
 {
     public int Id { get; set; }
     public string Cep { get; set; }
@@ -24,5 +24,10 @@ public class Logradouro
         Nome = nome;
         ProviderName = ConfigurationManager.ConnectionStrings["BD"].ProviderName;
         ConnectionString = ConfigurationManager.ConnectionStrings["BD"].ConnectionString;
+    }
+
+    public object Clone()
+    {
+        return this.MemberwiseClone();
     }
 }

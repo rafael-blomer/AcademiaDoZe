@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wSODXq9JsD2a0VY7CFw7cXrPTZF4JIUtk8D63H4iNJvV6ZzYKAYD4arC4ZSimZmpq8mDZ/9wzIxdFCnUd6yk7w==",
+  "dgSpecHash": "jW84EFqpfAM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafae\\Documents\\faculdade\\Desenvolvimento de sistemas 2\\AcademiaDoZe\\AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj",
+  "projectFilePath": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafae\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\extended.wpf.toolkit\\4.6.1\\extended.wpf.toolkit.4.6.1.nupkg.sha512",

@@ -22,9 +22,9 @@
         <Label x:Name="txtCidade" Content="{x:Static resources:Idioma.txtCidade}" HorizontalAlignment="Left" Margin="512,222,0,0" VerticalAlignment="Top" Height="32" Width="221"/>
         <Label x:Name="txtUf" Content="{x:Static resources:Idioma.txtUf}" HorizontalAlignment="Left" Margin="139,344,0,0" VerticalAlignment="Top" Height="32" Width="169"/>
         <Label x:Name="txtPais" Content="{x:Static resources:Idioma.txtPais}" HorizontalAlignment="Left" Margin="330,344,0,0" VerticalAlignment="Top" Height="32" Width="350"/>
-        <ComboBox x:Name="textCidade" TabIndex="3" HorizontalAlignment="Left" Margin="518,249,0,0" VerticalAlignment="Top" Width="430" Height="23"/>
-        <ComboBox x:Name="textPais" TabIndex="5" HorizontalAlignment="Left" Margin="330,376,0,0" VerticalAlignment="Top" Width="618" Height="24"/>
-        <ComboBox x:Name="textUf" TabIndex="4" HorizontalAlignment="Left" Margin="141,376,0,0" VerticalAlignment="Top" Width="156" Height="24"/>
+        <TextBox x:Name="textCidade" TabIndex="3" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus" HorizontalAlignment="Left" Margin="518,249,0,0" VerticalAlignment="Top" Width="430" Height="23"/>
+        <TextBox x:Name="textPais" TabIndex="5" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus" HorizontalAlignment="Left" Margin="330,376,0,0" VerticalAlignment="Top" Width="618" Height="24"/>
+        <TextBox x:Name="textUf" TabIndex="4" GotFocus="Box_GotFocus" LostFocus="Box_LostFocus" HorizontalAlignment="Left" Margin="141,376,0,0" VerticalAlignment="Top" Width="156" Height="24"/>
         <Button x:Name="txtSalvar" TabIndex="6" Content="{x:Static resources:Idioma.txtSalvar}" HorizontalAlignment="Left" Margin="768,441,0,0" Height="61" Width="180" VerticalAlignment="Top" Click="salvarLog_Click"/>
     </Grid>
 </Page>

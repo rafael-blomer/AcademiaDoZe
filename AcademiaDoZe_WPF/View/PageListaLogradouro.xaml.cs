@@ -20,7 +20,7 @@ public partial class PageListaLogradouro : Page
         try
         {
             // criação de objeto ViewModel
-            ViewModelLogradouro = new LogradouroViewModel(ProviderName, ConnectionString);
+            ViewModelLogradouro = new LogradouroViewModel();
             // carrega os dados
             ViewModelLogradouro.Load();
             // associa o objeto da ViewModel ao DataContext da janela
@@ -34,6 +34,6 @@ public partial class PageListaLogradouro : Page
     }
     private void ButtonNovo_Click(object sender, RoutedEventArgs e)
     {
-        NavigationService?.Navigate(new LogradouroPag(ProviderName, ConnectionString));
+        NavigationService?.Navigate(new LogradouroPag());
     }
 }

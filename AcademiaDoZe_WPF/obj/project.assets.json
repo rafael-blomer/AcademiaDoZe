@@ -2153,11 +2153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafae\\Documents\\faculdade\\Desenvolvimento de sistemas 2\\AcademiaDoZe\\AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj",
+      "projectUniqueName": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj",
       "projectName": "AcademiaDoZe_WPF",
-      "projectPath": "C:\\Users\\rafae\\Documents\\faculdade\\Desenvolvimento de sistemas 2\\AcademiaDoZe\\AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj",
+      "projectPath": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj",
       "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafae\\Documents\\faculdade\\Desenvolvimento de sistemas 2\\AcademiaDoZe\\AcademiaDoZe_WPF\\obj\\",
+      "outputPath": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2223,7 +2223,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
