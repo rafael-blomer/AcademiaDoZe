@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\",
+  "WorkspaceRootPath": "C:\\Users\\rafae\\Documents\\faculdade\\Desenvolvimento de sistemas 2\\AcademiaDoZe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|c:\\users\\rafae\\onedrive\\documentos\\faculdade\\desenvolvimento de sistemas - tio lu\\academiadoze\\academiadoze_wpf\\view\\pagelistalogradouro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|solutionrelative:academiadoze_wpf\\view\\pagelistalogradouro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|c:\\users\\rafae\\documents\\faculdade\\desenvolvimento de sistemas 2\\academiadoze\\academiadoze_wpf\\dataaccess\\alunorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|solutionrelative:academiadoze_wpf\\dataaccess\\alunorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|c:\\users\\rafae\\onedrive\\documentos\\faculdade\\desenvolvimento de sistemas - tio lu\\academiadoze\\academiadoze_wpf\\view\\pagelistalogradouro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|solutionrelative:academiadoze_wpf\\view\\pagelistalogradouro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|c:\\users\\rafae\\documents\\faculdade\\desenvolvimento de sistemas 2\\academiadoze\\academiadoze_wpf\\dataaccess\\colaboradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|solutionrelative:academiadoze_wpf\\dataaccess\\colaboradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|c:\\users\\rafae\\onedrive\\documentos\\faculdade\\desenvolvimento de sistemas - tio lu\\academiadoze\\academiadoze_wpf\\view\\usercontrollogradouro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|solutionrelative:academiadoze_wpf\\view\\usercontrollogradouro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|c:\\users\\rafae\\onedrive\\documentos\\faculdade\\desenvolvimento de sistemas - tio lu\\academiadoze\\academiadoze_wpf\\viewmodel\\logadrouroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|solutionrelative:academiadoze_wpf\\viewmodel\\logadrouroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|c:\\users\\rafae\\onedrive\\documentos\\faculdade\\desenvolvimento de sistemas - tio lu\\academiadoze\\academiadoze_wpf\\view\\logradouropag.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|solutionrelative:academiadoze_wpf\\view\\logradouropag.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|c:\\users\\rafae\\documents\\faculdade\\desenvolvimento de sistemas 2\\academiadoze\\academiadoze_wpf\\dataaccess\\logradourorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6F9DC10-0142-4006-8ABE-F05997EABFDC}|AcademiaDoZe_WPF\\AcademiaDoZe_WPF.csproj|solutionrelative:academiadoze_wpf\\dataaccess\\logradourorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserControlLogradouro.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\View\\UserControlLogradouro.xaml.cs",
-              "RelativeDocumentMoniker": "AcademiaDoZe_WPF\\View\\UserControlLogradouro.xaml.cs",
-              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\View\\UserControlLogradouro.xaml.cs",
-              "RelativeToolTip": "AcademiaDoZe_WPF\\View\\UserControlLogradouro.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AlunoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Documents\\faculdade\\Desenvolvimento de sistemas 2\\AcademiaDoZe\\AcademiaDoZe_WPF\\DataAccess\\AlunoRepository.cs",
+              "RelativeDocumentMoniker": "AcademiaDoZe_WPF\\DataAccess\\AlunoRepository.cs",
+              "ToolTip": "C:\\Users\\rafae\\Documents\\faculdade\\Desenvolvimento de sistemas 2\\AcademiaDoZe\\AcademiaDoZe_WPF\\DataAccess\\AlunoRepository.cs",
+              "RelativeToolTip": "AcademiaDoZe_WPF\\DataAccess\\AlunoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T18:01:47.233Z",
+              "WhenOpened": "2024-10-18T17:45:47.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LogradouroPag.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\View\\LogradouroPag.xaml.cs",
-              "RelativeDocumentMoniker": "AcademiaDoZe_WPF\\View\\LogradouroPag.xaml.cs",
-              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\View\\LogradouroPag.xaml.cs",
-              "RelativeToolTip": "AcademiaDoZe_WPF\\View\\LogradouroPag.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA8AAAAdAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "LogradouroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Documents\\faculdade\\Desenvolvimento de sistemas 2\\AcademiaDoZe\\AcademiaDoZe_WPF\\DataAccess\\LogradouroRepository.cs",
+              "RelativeDocumentMoniker": "AcademiaDoZe_WPF\\DataAccess\\LogradouroRepository.cs",
+              "ToolTip": "C:\\Users\\rafae\\Documents\\faculdade\\Desenvolvimento de sistemas 2\\AcademiaDoZe\\AcademiaDoZe_WPF\\DataAccess\\LogradouroRepository.cs",
+              "RelativeToolTip": "AcademiaDoZe_WPF\\DataAccess\\LogradouroRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T16:14:37.176Z",
+              "WhenOpened": "2024-10-18T17:45:47.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PageListaLogradouro.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\View\\PageListaLogradouro.xaml.cs",
-              "RelativeDocumentMoniker": "AcademiaDoZe_WPF\\View\\PageListaLogradouro.xaml.cs",
-              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\View\\PageListaLogradouro.xaml.cs",
-              "RelativeToolTip": "AcademiaDoZe_WPF\\View\\PageListaLogradouro.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAASwBgAAAAgAAAAAAAAAA==",
+              "Title": "ColaboradorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rafae\\Documents\\faculdade\\Desenvolvimento de sistemas 2\\AcademiaDoZe\\AcademiaDoZe_WPF\\DataAccess\\ColaboradorRepository.cs",
+              "RelativeDocumentMoniker": "AcademiaDoZe_WPF\\DataAccess\\ColaboradorRepository.cs",
+              "ToolTip": "C:\\Users\\rafae\\Documents\\faculdade\\Desenvolvimento de sistemas 2\\AcademiaDoZe\\AcademiaDoZe_WPF\\DataAccess\\ColaboradorRepository.cs",
+              "RelativeToolTip": "AcademiaDoZe_WPF\\DataAccess\\ColaboradorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T23:14:55.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LogadrouroViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\ViewModel\\LogadrouroViewModel.cs",
-              "RelativeDocumentMoniker": "AcademiaDoZe_WPF\\ViewModel\\LogadrouroViewModel.cs",
-              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\ViewModel\\LogadrouroViewModel.cs",
-              "RelativeToolTip": "AcademiaDoZe_WPF\\ViewModel\\LogadrouroViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T12:52:19.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PageListaLogradouro.xaml",
-              "DocumentMoniker": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\View\\PageListaLogradouro.xaml",
-              "RelativeDocumentMoniker": "AcademiaDoZe_WPF\\View\\PageListaLogradouro.xaml",
-              "ToolTip": "C:\\Users\\rafae\\OneDrive\\Documentos\\Faculdade\\Desenvolvimento de Sistemas - tio Lu\\AcademiaDoZe\\AcademiaDoZe_WPF\\View\\PageListaLogradouro.xaml",
-              "RelativeToolTip": "AcademiaDoZe_WPF\\View\\PageListaLogradouro.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-30T22:29:24.479Z",
+              "WhenOpened": "2024-10-18T17:39:00.752Z",
               "EditorCaption": ""
             }
           ]

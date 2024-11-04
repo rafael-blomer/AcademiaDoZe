@@ -28,6 +28,12 @@
     <Compile Update="View\MatriculaPag.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\PageListaAluno.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\PageListaColaborador.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\PageListaLogradouro.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -35,6 +41,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\UserControlLogradouro.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WindowAluno.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WindowColaborador.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\WindowConfig.xaml.cs">
@@ -71,6 +83,12 @@
     <Page Update="View\MatriculaPag.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="View\PageListaAluno.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\PageListaColaborador.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\PageListaLogradouro.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -78,6 +96,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\UserControlLogradouro.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\WindowAluno.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\WindowColaborador.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\WindowConfig.xaml">

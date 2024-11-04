@@ -1,0 +1,1503 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AcademiaDoZe_WPF</name>
+    </assembly>
+    <members>
+        <member name="T:AcademiaDoZe_WPF.App">
+            <summary>
+            Aqui fica a página do app 
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.ClassFuncoes.AjustaResources(System.Windows.DependencyObject)">
+            <summary>
+            De forma recursiva, varre todos os componentes da tela informada, executando o método ApplyResources em cada um dos componentes localizados.
+            O ApplyResources realiza a leitura do satellite assembly, ou seja, do arquivo de resource que foi ativo conforme o idioma escolhido pelo usuário,
+            e com base no nome do campo ajusta todos os parâmetros contidos no resource para aquele campo, por exemplo Text, Content, Font, Size, etc.
+            Deve possuir, em Properties, um arquivo de resources para cada idioma desejado, devendo ser alimentado na coluna nome o nome do campo e a propriedade que deseja ajustar.
+            Por exemplo, em cadeias de caracteres labelLogin.Content, em outros textBoxSenha.PasswordChar, ou seja, todas as propriedades podem ser ajustadas conforme o idioma e região em uso.
+            </summary>
+            <param name="parent">Informar o container inicial, geralmente this para pegar todos os campos da tela, ou então, por exemplo, o nome de um panel ou usercontrol.</param>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.ClassFuncoes.Window_KeyDown(System.Object,System.Windows.Input.KeyEventArgs)">
+             <summary>
+             Tratar eventos de teclado, no caso tecla ENTER funcionando com TAB e tecla ESC para fechar
+             </summary>
+             <param name="sender">Objeto que gerou o evento</param>
+             <param name="e">Evento que foi capturado</param>
+             <example>No construtor do formulário:
+             this.KeyDown += new System.Windows.Input.KeyEventHandler(ClassFuncoes.Window_KeyDown);
+            </example>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.Properties.Idioma">
+            <summary>
+              Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.ResourceManager">
+            <summary>
+              Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.Culture">
+            <summary>
+              Substitui a propriedade CurrentUICulture do thread atual para todas as
+              pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtAdministrador">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Administrador.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtAdmissao">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Admissão.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtAlergias">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Alergias.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtAltura">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Altura.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtAluno">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Aluno.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtAntDir">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Antebraço Direito.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtAntEsq">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Antebraço Esquerdo.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtAnual">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Anual.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtAtendente">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Atendente.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtAulas">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Aulas.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtAvaliacao">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Avaliação.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtBairro">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Bairro.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtBicDir">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Bíceps Direito.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtBicEsq">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Bíceps Esquerdo.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtCep">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a CEP.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtCidade">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Cidade.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtCintura">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Cintura.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtClt">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a CLT.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtColaborador">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Colaborador.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtComplemento">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Complemento.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtConfig">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Configurações.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtCoxaDir">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Coxa Direita.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtCoxaEsq">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Coxa Esquerda.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtCpf">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a CPF.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtData">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Data.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtDiabete">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Diabete.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtEmail">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Email.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtEntrada">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Entrada.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtEstagio">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Estagio.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtFim">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Fim.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtFrequencia">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Frequência.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtGravidez">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Gravidez.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtId">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a ID.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtIdAluno">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a ID Aluno.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtIdEnd">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a ID Endereço.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtIdioma">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Idioma.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtImc">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a IMC.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtInicio">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Início.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtInstrutor">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Instrutor.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtLabirinto">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Labirinto.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtLesoesMusculares">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Lesões Musculares.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtLogout">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Logout.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtLogradouro">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Logradouro.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtLogradouroh1">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Logradouro.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtMassaGor">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Massa Gorda.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtMassaMag">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Massa Magra.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtMatricula">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Matrícula.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtMensal">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Mensal.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtNascimento">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Data de nascimento.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtNenhuma">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Nenhuma.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtNome">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Nome.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtNumero">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Número.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtObjetivo">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Objetivo.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtObservacao">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Observação.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtOutras">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Outras.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtPais">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a País.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtPantDir">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Panturrilha Direita.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtPantEsq">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Panturrilha Esquerda.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtPercGor">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Percentual de Gordura.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtPeso">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Peso.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtPesoIdeal">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Peso Ideal.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtPlano">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Plano.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtPressaoAlta">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Pressão Alta.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtProbCardiaco">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Problema Cardíaco.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtProbRespiratorio">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Problema Respiratório.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtQuadril">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Quadril.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtRemedio">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Remédio uso continuo.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtReSenha">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Re-senha.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtRestricoes">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Restrições.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtSaida">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Saída.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtSalvar">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Salvar.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtSemestral">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Semestral.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtSenha">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Senha.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtSenhah1">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Senha.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtTelefone">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Telefone.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtTorax">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Tórax.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtTreinos">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Treinos.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtTrimestral">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Trimestral.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma.txtUf">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a UF.
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.Properties.Idioma_en_US">
+            <summary>
+              Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.ResourceManager">
+            <summary>
+              Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.Culture">
+            <summary>
+              Substitui a propriedade CurrentUICulture do thread atual para todas as
+              pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtAdministrador">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtadmissao">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtAlergias">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtAltura">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtAluno">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtAntDir">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtAntEsq">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtAnual">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtAtendente">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtAulas">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtAvaliacao">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtBairro">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtBicDir">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtBicEsq">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtCep">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtCidade">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtCintura">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtClt">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtColaborador">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtComplemento">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtCoxaDir">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtCoxaEsq">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtCpf">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtData">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtDiabete">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtEmail">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtEntrada">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtEstagio">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtFim">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtFrequencia">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtGravidez">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtId">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtIdAluno">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtIdEnd">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtImc">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtInicio">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtInstrutor">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtLabirinto">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtLesoesMusculares">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtLogout">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtLogradouro">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtLogradouroh1">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtMassaGor">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtMassaMag">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtMatricula">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtMensal">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtNascimento">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtNenhuma">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtNome">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtNumero">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtObjetivo">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtObservacao">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtOutras">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtPais">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtPantDir">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtPantEsq">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtPercGor">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtPeso">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtPesoIdeal">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtPlano">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtPressaoAlta">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtProbCardiaco">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtProbRespiratorio">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtQuadril">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtRemedio">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtReSenha">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtRestricoes">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtSaida">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtSalvar">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtSemestral">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtSenha">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtSenhah1">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtTelefone">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtTorax">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtTreinos">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtTrimestral">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_en_US.txtUf">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.Properties.Idioma_es_ES">
+            <summary>
+              Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.ResourceManager">
+            <summary>
+              Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.Culture">
+            <summary>
+              Substitui a propriedade CurrentUICulture do thread atual para todas as
+              pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtAdministrador">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a Administrador.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtAdmissao">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a A.
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtAlergias">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtAltura">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtAluno">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtAntDir">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtAntEsq">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtAnual">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtAtendente">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtAulas">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtAvaliacao">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtBairro">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtBicDir">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtBicEsq">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtCep">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtCidade">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtCintura">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtClt">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtColaborador">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtComplemento">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtCoxaDir">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtCoxaEsq">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtCpf">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtData">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtDiabete">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtEmail">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtEntrada">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtEstagio">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtFim">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtFrequencia">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtGravidez">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtId">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtIdAluno">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtIdEnd">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtImc">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtInicio">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtInstrutor">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtLabirinto">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtLesoesMusculares">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtLogout">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtLogradouro">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtLogradouroh1">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtMassaGor">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtMassaMag">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtMatricula">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtMensal">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtNascimento">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtNenhuma">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtNome">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtNumero">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtObjetivo">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtObservacao">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtOutras">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtPais">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtPantDir">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtPantEsq">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtPercGor">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtPeso">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtPesoIdeal">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtPlano">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtPressaoAlta">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtProbCardiaco">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtProbRespiratorio">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtQuadril">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtRemedio">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtReSenha">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtRestricoes">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtSaida">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtSalvar">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtSemestral">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtSenha">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtSenhah1">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtTelefone">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtTorax">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtTreinos">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtTrimestral">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="P:AcademiaDoZe_WPF.Properties.Idioma_es_ES.txtUf">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a .
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.AlunoPag">
+            <summary>
+            Aqui fica a página de aluno 
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            AlunoPag
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.AlunoPag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.AvaliacoesPag">
+            <summary>
+            Aqui fica a página de avaliações 
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            AvaliacoesPag
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.AvaliacoesPag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.ColaboradoresPag">
+            <summary>
+            Aqui fica a página de Colaboradores
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            ColaboradoresPag
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.ColaboradoresPag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.FrequenciaPag">
+            <summary>
+            Aqui fica a página de frequencia
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            FrequenciaPag
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.FrequenciaPag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.Home">
+            <summary>
+            Lógica interna para Home.xaml
+            </summary>
+            <summary>
+            Home
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.Home.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.LogradouroPag">
+            <summary>
+            Aqui fica a página de Logradouro
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            LogradouroPag
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.LogradouroPag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.MainWindow">
+            <summary>
+            Aqui fica a página de mainWindow
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.MatriculaPag">
+            <summary>
+            Aqui fica a página de Mátricula
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            MatriculaPag
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.MatriculaPag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.PageListaAluno">
+            <summary>
+            Interação lógica para PageListaAluno.xam
+            </summary>
+            <summary>
+            PageListaAluno
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.PageListaAluno.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.PageListaColaborador">
+            <summary>
+            Interação lógica para PageListaColaborador.xam
+            </summary>
+            <summary>
+            PageListaColaborador
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.PageListaColaborador.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.PageListaLogradouro">
+            <summary>
+            PageListaLogradouro
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.PageListaLogradouro.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.SenhaPag">
+            <summary>
+            Aqui fica a página de senha 
+            Rafael Ceccatto Blomer
+            </summary>
+            <summary>
+            SenhaPag
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.SenhaPag.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.UserControlLogradouro">
+            <summary>
+            Interação lógica para UserControlLogradouro.xaml
+            </summary>
+            <summary>
+            UserControlLogradouro
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.UserControlLogradouro.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.WindowAluno">
+            <summary>
+            Lógica interna para WindowAluno.xaml
+            </summary>
+            <summary>
+            WindowAluno
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.WindowAluno.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.WindowColaborador">
+            <summary>
+            Lógica interna para WindowColaborador.xaml
+            </summary>
+            <summary>
+            WindowColaborador
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.WindowColaborador.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:AcademiaDoZe_WPF.View.WindowConfig">
+            <summary>
+            Lógica interna para WindowConfig.xaml
+            </summary>
+            <summary>
+            WindowConfig
+            </summary>
+        </member>
+        <member name="M:AcademiaDoZe_WPF.View.WindowConfig.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

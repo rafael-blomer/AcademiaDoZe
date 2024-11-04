@@ -1,6 +1,4 @@
-﻿using System.Configuration;
-using System.Configuration.Provider;
-
+﻿namespace AcademiaDoZe_WPF.Model;
 public class Colaborador
 {
     public int Id { get; set; }
@@ -14,29 +12,11 @@ public class Colaborador
     public string Complemento { get; set; }
     public string Senha { get; set; }
     public DateTime Admissao { get; set; }
-    public string Tipo { get; set; }
-    public string Vinculo { get; set; }
-    private string ConnectionString { get; set; }
-    private string ProviderName { get; set; }
-
-    public Colaborador(int id = 0, string cpf = "", string telefone = "", string nome = "", DateTime nascimento = default(DateTime),
-                       string email = "", int logradouroId = 0, string numero = "", string complemento = "", string senha = "",
-                       DateTime admissao = default(DateTime), string tipo = "", string vinculo = "")
+    public EnumColaboradorTipo Tipo { get; set; }
+    public EnumColaboradorVinculo Vinculo { get; set; }
+    public Colaborador()
     {
-        Id = id;
-        Cpf = cpf;
-        Telefone = telefone;
-        Nome = nome;
-        Nascimento = nascimento;
-        Email = email;
-        LogradouroId = logradouroId;
-        Numero = numero;
-        Complemento = complemento;
-        Senha = senha;
-        Admissao = admissao;
-        Tipo = tipo;
-        Vinculo = vinculo;
-        ProviderName = ConfigurationManager.ConnectionStrings["BD"].ProviderName;
-        ConnectionString = ConfigurationManager.ConnectionStrings["BD"].ConnectionString;
+        Nascimento = DateTime.Now;
+        Admissao = DateTime.Now;
     }
 }

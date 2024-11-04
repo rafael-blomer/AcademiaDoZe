@@ -24,20 +24,20 @@ Title="PageListaLogradouro">
             </Grid>
         </GroupBox>
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
-            <Button x:Name="buttonNovo" Margin="3" Padding="3" Content="Novo" Background="#FF1A1A1A" Foreground="#FFFDFDFD" Width="130" Height="30" FontWeight="Bold" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center" />
-            <Button x:Name="buttonEditar" Margin="3" Padding="3" Content="Editar" Background="#FF1A1A1A" Foreground="#FFFDFDFD" Width="130" Height="30" FontWeight="Bold" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center" />
-            <Button x:Name="buttonExcluir" Margin="3" Padding="3" Content="Deletar" Background="#FF1A1A1A" Foreground="#FFFDFDFD" Width="130" Height="30" FontWeight="Bold" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            <Button x:Name="buttonNovo" Margin="3" Padding="3" CommandParameter="{Binding}" Command="{Binding LogradouroAdicionarCommand}" Content="Novo" Background="#FF1A1A1A" Foreground="#FFFDFDFD" Width="130" Height="30" FontWeight="Bold" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            <Button x:Name="buttonEditar" Margin="3" Padding="3" CommandParameter="{Binding}" Command="{Binding LogradouroAtualizarCommand}" Content="Editar" Background="#FF1A1A1A" Foreground="#FFFDFDFD" Width="130" Height="30" FontWeight="Bold" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            <Button x:Name="buttonExcluir" Margin="3" Padding="3" CommandParameter="{Binding}" Command="{Binding LogradouroRemoverCommand}" Content="Deletar" Background="#FF1A1A1A" Foreground="#FFFDFDFD" Width="130" Height="30" FontWeight="Bold" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center" />
         </StackPanel>
         <ScrollViewer Grid.Row="2" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Hidden">
-            <DataGrid ItemsSource="{Binding Logradouros}" SelectedItem="{Binding SelectedLogradouro}" AutoGenerateColumns="False" IsReadOnly="False">
+            <DataGrid ItemsSource="{Binding Logradouros}" SelectedItem="{Binding SelectedLogradouro}" AutoGenerateColumns="True" IsReadOnly="False">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Id" Binding="{Binding Id}" IsReadOnly="True"/>
-                    <DataGridTextColumn Header="Cep" Binding="{Binding Cep}"/>
-                    <DataGridTextColumn Header="Nome" Binding="{Binding Nome}"/>
-                    <DataGridTextColumn Header="Bairro" Binding="{Binding Bairro}"/>
-                    <DataGridTextColumn Header="Cidade" Binding="{Binding Cidade}"/>
-                    <DataGridTextColumn Header="UF" Binding="{Binding Uf}"/>
-                    <DataGridTextColumn Header="Pais" Binding="{Binding Pais}"/>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="Cep" Binding="{Binding Cep, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Nome" Binding="{Binding Nome, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Bairro" Binding="{Binding Bairro, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Cidade" Binding="{Binding Cidade, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="UF" Binding="{Binding Uf, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Pais" Binding="{Binding Pais, UpdateSourceTrigger=PropertyChanged}"/>
                 </DataGrid.Columns>
             </DataGrid>
         </ScrollViewer>

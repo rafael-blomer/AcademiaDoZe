@@ -11,8 +11,9 @@ d:Height="178.255" d:Width="568.144">
         <TextBox x:Name="textBoxId" Text="{Binding SelectedLogradouro.Id}" HorizontalAlignment="Left" Margin="15,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" IsEnabled="False"/>
         <TextBlock x:Name="labelCep" Text="CEP:" HorizontalAlignment="Left" Margin="104,10,0,0" VerticalAlignment="Top" Foreground="#FFC4C4C4"/>
         <TextBox x:Name="textBoxCep" Text="{Binding SelectedLogradouro.Cep}" HorizontalAlignment="Left" Margin="104,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
-        <TextBlock x:Name="labelLogradouro" Text="Logradouro:" HorizontalAlignment="Left" Margin="204,10,0,0" VerticalAlignment="Top" Foreground="#FFC4C4C4"/>
-        <TextBox x:Name="textBoxLogradouro" Text="{Binding SelectedLogradouro.Nome}" HorizontalAlignment="Left" Margin="204,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="350"/>
+        <Button Content="Filtrar" Command="{Binding FiltrarLogradouroCommand}" CommandParameter="{Binding Text, ElementName=textBoxCep}" HorizontalAlignment="Left" Margin="190,35,0,0" VerticalAlignment="Top" Width="45" />
+        <TextBlock x:Name="labelLogradouro" Text="Logradouro:" HorizontalAlignment="Left" Margin="254,10,0,0" VerticalAlignment="Top" Foreground="#FFC4C4C4"/>
+        <TextBox x:Name="textBoxLogradouro" Text="{Binding SelectedLogradouro.Nome}" HorizontalAlignment="Left" Margin="254,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300"/>
         <TextBlock x:Name="labelBairro" Text="Bairro:" HorizontalAlignment="Left" Margin="15,58,0,0" VerticalAlignment="Top" Foreground="#FFC4C4C4"/>
         <TextBox x:Name="textBoxBairro" Text="{Binding SelectedLogradouro.Bairro}" HorizontalAlignment="Left" Margin="15,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
         <TextBlock x:Name="labelCidade" Text="Cidade:" HorizontalAlignment="Left" Margin="253,54,0,0" VerticalAlignment="Top" Foreground="#FFC4C4C4"/>

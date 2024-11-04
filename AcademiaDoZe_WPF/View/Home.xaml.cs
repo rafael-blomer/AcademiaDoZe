@@ -50,12 +50,16 @@ namespace AcademiaDoZe_WPF.View
 
         private void AlunoBtn_Click(object sender, RoutedEventArgs e)
         {
-            mainFrame.Navigate(new AlunoPag());
+            if (mainFrame.Content is not PageListaAluno)
+            {
+                mainFrame.Content = new PageListaAluno();
+            }
         }
 
         private void ColaboradorBtn_Click(object sender, RoutedEventArgs e)
         {
-            mainFrame.Navigate(new ColaboradoresPag());
+            if (mainFrame.Content is not PageListaColaborador)
+                mainFrame.Content = new PageListaColaborador();
         }
 
         private void SenhaBtn_Click(object sender, RoutedEventArgs e)

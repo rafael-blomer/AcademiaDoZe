@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\rafae\OneDrive\Documentos\Faculdade\Desenvolvimento de Sistemas - tio Lu\AcademiaDoZe\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe\AcademiaDoZe_WPF\obj\Debug\net8.0-windows\
 AcademiaDoZe_WPF
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\rafae\OneDrive\Documentos\Faculdade\Desenvolvimento de Sistemas - tio Lu\AcademiaDoZe\AcademiaDoZe_WPF\App.xaml
-12-604872024
+C:\Users\rafae\Documents\faculdade\Desenvolvimento de sistemas 2\AcademiaDoZe\AcademiaDoZe_WPF\App.xaml
+161591516708
 
-331012620210
-2121305308083
-View\AlunoPag.xaml;View\AvaliacoesPag.xaml;View\ColaboradoresPag.xaml;View\FrequenciaPag.xaml;View\Home.xaml;View\LogradouroPag.xaml;View\MainWindow.xaml;View\MatriculaPag.xaml;View\PageListaLogradouro.xaml;View\SenhaPag.xaml;View\UserControlLogradouro.xaml;View\WindowConfig.xaml;
+4417158242
+212-992168543
+View\AlunoPag.xaml;View\AvaliacoesPag.xaml;View\ColaboradoresPag.xaml;View\FrequenciaPag.xaml;View\Home.xaml;View\LogradouroPag.xaml;View\MainWindow.xaml;View\MatriculaPag.xaml;View\PageListaAluno.xaml;View\PageListaColaborador.xaml;View\PageListaLogradouro.xaml;View\SenhaPag.xaml;View\UserControlLogradouro.xaml;View\WindowAluno.xaml;View\WindowColaborador.xaml;View\WindowConfig.xaml;
 
-True
+False
 
